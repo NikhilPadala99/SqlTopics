@@ -17,7 +17,7 @@ group by skill_id
 )
 select 
       
-       skill_count_tab.skill_id,
+       --skill_count_tab.skill_id,
        skills,
        skill_count_tab.skill_count,
        skill_count_tab.avg_sal_USD
