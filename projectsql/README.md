@@ -161,6 +161,13 @@ Machine Learning basics
 
 Cloud tools (AWS, GCP, Azure)
 
+![Top Paying Job Skills](/assets/Image2_Skills_analyst.png)
+
+
+This bar chart represents the required technical skill set for a top-paying Data Analytics leadership role. Each bar corresponds to a specific skill mentioned in the job posting, including SQL, Python, R, AWS, Azure, Databricks, Pandas, PySpark, Jupyter, and Excel.
+
+This is mainly useful for Recruiters,Managers and Aspiring Data analysts
+
 ### 3.  Top Demanding Skills for Data Analyst and average salary for that skills?
 
 The query identifies the top 10 most in-demand skills for Data Analyst roles by counting how many job postings require each skill and calculating the average salary associated with those jobs. First, the CTE (skill_count_tab) joins job postings with their listed skills, filters only Data Analyst positions with available salary data, then groups by skill to compute how frequently each skill appears and the average salary for that skill. In the main query,  join these results with the skills table to get the skill names and finally sort them in descending order of demand. Overall, the query tells  which skills are most commonly required and how well they are paid, helping to understand the most valuable skills in the Data Analyst job market.
@@ -220,7 +227,15 @@ Which skills to focus on first (high demand)
 
 Which skills increase salary (high avg salary)
 
-Top 10 key skills for Data Analysts
+Top 10 key skills for Data Analysts.
+
+![Top skills for Data Analyst](/assets/Image3_Table.png)
+
+
+This table shows the top 10 most in-demand skills for Data Analyst roles, along with their average annual salary in USD.
+Demand is measured by the number of job postings that list each skill, while salary represents the average compensation for roles requiring that skill.
+
+The table highlights that skills such as SQL and Excel dominate in demand, whereas Python, R, and Tableau command relatively higher salaries. This comparison helps identify skills that balance market demand and earning potential.
 
 
 ### **4. Overall Top Demanding skills with high average salary?**
@@ -272,6 +287,11 @@ limit 25;
 **Data Agregation:** Got cozy with the group by and turned aggregate functions like count() and avg() into my data summarizing sidekicks.
 
 **Analytical wizardy:** Leveled up my real-world-puzzle solving skills, turning questions into actionable, insightful SQL Querries
+
+
+![Overall demanding skills](/assets/Image4_table.png)
+
+This table summarizes the most in-demand technical skills across all roles, filtered to include only skills appearing in more than 200 job postings. It compares market demand (job count) with average annual salary, helping identify skills that offer both strong earning potential and widespread demand.
 
 # Conclusion
 
