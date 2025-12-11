@@ -29,5 +29,5 @@ from
     skills_dim 
 Inner JOIN skill_count_tab on skill_count_tab.skill_id=skills_dim.skill_id
 order by avg_sal_USD desc
-limit 25;
+limit 10;
 
